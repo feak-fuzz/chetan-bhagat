@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background: url(../images/bg_body.jpg) top center no-repeat fixed;}
+
+.widgettitle h2 {
+    /* font-family: Karla, Helvetica, Arial, sans-serif; */
+    font-size: 20px;
+    line-height: 16px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    border-top: 2px solid #e1e1e1;
+    border-bottom: 2px solid #e1e1e1;
+}
+.col-md-12{margin-top: 30px;}
+
+.pading20{padding: 10px;}
+.panel {background: none; }
+.panel-body {
+    padding: 5px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-nav > li > a {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
